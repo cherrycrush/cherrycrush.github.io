@@ -1,57 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 body {
- 	font-family: "Trirong", serif;
+	background-color: #484a4c;
+ 	font-family: 'Source Code Pro', monospace;
 }
 
 header {
-	background-color: lightblue;
+	background-color: #dedede;
 	text-align: center;
-}
-
-main {
-	flex-wrap: wrap;
-	flex-direction: row;
+	position: initial;
 }
 
 .navbar {
-	position: sticky;
-	background-color: black;
+	background-color: #dedede;
 	list-style: none;
 	margin: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	max-width: 900px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.25rem;
+}
+
+a:hover {
+	font-weight: bold;
+	color: #e05e00;
 }
 
 .nav-item {
+	margin: auto;
+	max-width: 800px;
 	display: inline;
-	position: sticky;
-	padding: 1.25rem;
-	background-color: orange;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	list-style: none;
 }
 
 section {
-	max-width: 800px;
+	max-width: 900px;
+	padding: 1.25rem;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	background-color: #dedede;
 }
 
 article {
-	max-width: 800px;
+	max-width: 900px;
+	padding: 1.25rem;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
+	background-color: #dedede;
 }
 
+
 h1 {
-	padding-left: 1.25rem;
-	border-bottom: solid;
+	padding: 1rem;
+}
+
+h2 {
+	padding: 1.1rem;
+	border-bottom: solid 2px #333;
+	border-left: solid 2px #333;
+	color: #e05e00;
 }
 
 p {
-	padding-left: 1.25rem;
-	text-align: justify;
+	padding: 1.25rem;
+	text-align: left;
+	font-size: 1.25rem;
 }
-
