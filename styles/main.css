@@ -184,6 +184,6 @@ p {
 
 @media screen and (max-width: 800px) {
 	h1 {
-		font-size: 1em;
+		font-size: 0.5em;
 	}
 }
