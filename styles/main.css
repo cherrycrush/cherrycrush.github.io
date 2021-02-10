@@ -7,8 +7,11 @@ body {
 
 header {
 	background-color: #dedede;
-	text-align: center;
-	position: initial;
+	margin: auto;
+	max-width: 50%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
 }
 
 .navbar {
@@ -18,7 +21,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	max-width: 900px;
+	max-width: 1200px;
 }
 
 a {
@@ -27,21 +30,22 @@ a {
 	font-size: 1.25rem;
 }
 
-a:hover {
+a:hover, h1:hover {
 	font-weight: bold;
 	color: #e05e00;
 }
 
 .nav-item {
+	font-weight: bold;
 	margin: auto;
-	max-width: 800px;
+	max-width: 500px;
 	display: inline;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
 	list-style: none;
 }
 
-section {
+section, article {
 	max-width: 900px;
 	padding: 1.25rem;
 	margin: auto;
@@ -49,31 +53,54 @@ section {
 	flex-direction: column;
 	justify-content: center;
 	background-color: #dedede;
+	border: solid 10px #dedede;
+	border-radius: 10px;
 }
 
-article {
+/*article {
 	max-width: 900px;
 	padding: 1.25rem;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	background-color: #dedede;
-}
-
+	border: solid 10px #dedede;
+	border-radius: 10px;
+}*/
 
 h1 {
-	padding: 1rem;
+	background-color: #dedede;
+	margin: 0;
+	border-right: solid 2px #333;
+	justify-content: center;
+	max-width: 50%;
 }
 
 h2 {
-	padding: 1.1rem;
+	padding-bottom: 1.25rem;
+	padding-left: 1.25rem;
 	border-bottom: solid 2px #333;
-	border-left: solid 2px #333;
 	color: #e05e00;
 }
 
 p {
-	padding: 1.25rem;
+	padding-left: 1.25rem;
 	text-align: left;
 	font-size: 1.25rem;
+}
+
+.post {
+	padding-left: 1.25rem;
+	text-align: right;
+	font-size: 1rem;
+}
+
+#title {
+	animation: 
+    blinker .75s step-end infinite;
+}
+
+@keyframes blinker {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
 }
