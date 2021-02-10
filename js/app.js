@@ -1,6 +1,6 @@
 let i = 0;
 let speed = 100;
-let txt = "Aaron's Foundations";
+let txt = "Ideas from the deep";
 
 function typeWriter() {
  if (i < txt.length) {
