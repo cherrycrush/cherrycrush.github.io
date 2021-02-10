@@ -50,11 +50,22 @@ a:hover {
 }
 
 .nav-item {
+	display: flex;
+	flex-direction: row;
 	font-weight: bold;
 	margin: 0 auto;
 	display: inline;
 	padding-left: 2rem;
 	padding-right: 2rem;
+	list-style: none;
+}
+
+.nav-brand {
+	font-weight: bold;
+	padding-right: 0;
+	display: flex;
+	flex-direction: row-reverse;
+	display: inline;
 	list-style: none;
 }
 
