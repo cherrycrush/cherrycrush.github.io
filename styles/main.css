@@ -178,3 +178,12 @@ p {
   from, to { border-color: transparent }
   50% { border-color: white;; }
 }
+
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 800px) {
+	h1 {
+		font-size: 1em;
+	}
+}
