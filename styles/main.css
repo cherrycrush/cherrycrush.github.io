@@ -11,7 +11,7 @@ body {
 
 header {
 	margin: auto;
-	max-width: 50%;
+	max-width: 100%;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -31,11 +31,16 @@ header {
 .navbar {
 	background-color: #dedede;
 	list-style: none;
-	margin: auto;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	max-width: 100%;
+	max-width: 900px;
+}
+
+.nav-right {
+	display: flex;
+	flex-direction: row-reverse;
+	flex: 1;
 }
 
 a {
@@ -49,23 +54,16 @@ a:hover {
 	color: #e05e00;
 }
 
+.nav-list {
+	padding: 0.5rem;
+}
+
 .nav-item {
 	display: flex;
 	flex-direction: row;
 	font-weight: bold;
-	margin: 0 auto;
 	display: inline;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	list-style: none;
-}
-
-.nav-brand {
-	font-weight: bold;
-	padding-right: 0;
-	display: flex;
-	flex-direction: row-reverse;
-	display: inline;
+	padding: 1rem;
 	list-style: none;
 }
 
@@ -96,11 +94,12 @@ h1 {
 	margin: 0;
 	border-right: solid 2px #333;
 	justify-content: center;
-	max-width: 50%;
+	max-width: 100%;
 }
 
 h2 {
 	max-width: 300px;
+	font-size: 1.25rem;
 	background-color: #dedede;
 	border: solid 10px #dedede;
 	border-radius: 10px;
@@ -108,7 +107,7 @@ h2 {
 
 h3 {
 	padding-left: 1.25rem;
-	max-width: 50%;
+	max-width: 80%;
 	text-align: left;
 	font-size: 1.5rem;
 	border-bottom: solid 1px #333;
@@ -117,7 +116,8 @@ h3 {
 
 p {
 	padding-left: 1.25rem;
-	text-align: left;
+	padding-right: 1.25rem;
+	text-align: justify;
 	font-size: 1.1rem;
 	font-family: Tahoma;
 	display: block;
@@ -126,7 +126,7 @@ p {
 .post {
 	padding-left: 1.25rem;
 	text-align: right;
-	font-size: 1rem;
+	font-size: 0.9rem;	
 	border-top: solid 1px #333;
 	background-color: #dedede;
 }
