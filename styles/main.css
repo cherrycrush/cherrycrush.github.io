@@ -170,12 +170,18 @@ p {
 	background-color: #dedede;
 }
 
-.image, .image-text {
-	width: 60%;
+.image {
+	padding-top: 1rem;
+	width: 40%;
 	height: auto;
 	margin: 0 auto;
-	font-size: 1rem;
-	line-height: 2rem;
+	font-size: 0.9rem;
+}
+
+.image-text {
+	padding-bottom: 1rem;
+	margin: 0 auto;
+	font-size: 0.9rem;
 	justify-content: center;
 }
 
