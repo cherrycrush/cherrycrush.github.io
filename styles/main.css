@@ -170,6 +170,13 @@ p {
 	background-color: #dedede;
 }
 
+#photo {
+	width: 25%;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
 .image {
 	padding-top: 1rem;
 	width: 40%;
