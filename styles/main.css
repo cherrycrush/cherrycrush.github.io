@@ -216,7 +216,7 @@ p {
 		border-right: 0;
 		border-bottom: 0;
 	}
-	.image {
-	width: 100%;
+	.image, #photo {
+	width: 90%;
 	}
 }
