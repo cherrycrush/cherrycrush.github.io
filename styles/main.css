@@ -37,6 +37,8 @@ header {
 	display: flex;
 	flex-direction: row;
 	max-width: 500px;
+	border-right: solid 5px #222;
+	border-bottom: solid 5px #222;
 }
 
 .nav-right {
@@ -91,7 +93,7 @@ section {
 }
 
 .s-nav-list {
-	background-color: #333;
+	background-color: black;
 	display: inline;
 	max-width: 100%;
 	padding-right: 2rem;
@@ -119,8 +121,8 @@ article {
 	display: flex;
 	flex-direction: column;
 	background-color: #dedede;
-	border-right: solid 10px black;
-	border-bottom: solid 10px black;
+	border-right: solid 10px #222;
+	border-bottom: solid 10px #222;
 }
 
 
