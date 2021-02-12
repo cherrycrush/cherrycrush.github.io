@@ -23,7 +23,6 @@ header {
 	flex-direction: row;
 	flex-wrap: wrap;
 	max-width: 1000px;
-	flex-shrink: 1;
 	margin: 0 auto;
 }
 
@@ -164,6 +163,14 @@ p {
 	display: block;
 }
 
+.ctn-right {
+	font-size: 1rem;
+	font-family: Tahoma;
+	max-width: 60%;
+	padding-left: 4rem;
+	flex: 1 1 auto;
+}
+
 .post {
 	padding-left: 1.25rem;
 	text-align: right;
@@ -175,9 +182,9 @@ p {
 /* Image + text styles */
 
 #photo {
+	align-self: flex-start;
 	width: 25%;
 	height: auto;
-	margin: 0 auto;
 	border-radius: 50%;
 }
 
@@ -220,7 +227,12 @@ p {
 		border-right: 0;
 		border-bottom: 0;
 	}
-	.image, #photo {
-	width: 90%;
+	.image {
+		width: 40%;
+	}
+	#photo, .ctn-right {
+		max-width: 60%;
+		margin: 0 auto;
+		padding-left: 0;	
 	}
 }
