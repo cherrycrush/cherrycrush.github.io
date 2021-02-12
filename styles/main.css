@@ -119,8 +119,8 @@ article {
 	display: flex;
 	flex-direction: column;
 	background-color: #dedede;
-	border: solid 10px #dedede;
-	border-radius: 10px;
+	border-right: solid 10px #333;
+	border-bottom: solid 10px #333;
 }
 
 
@@ -211,5 +211,12 @@ p {
 @media screen and (max-width: 800px) {
 	h1 {
 		font-size: 1.25em;
+	}
+	article {
+		border-right: 0;
+		border-bottom: 0;
+	}
+	.image {
+	width: 100%;
 	}
 }
