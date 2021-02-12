@@ -164,6 +164,7 @@ p {
 }
 
 .ctn-right {
+	text-align: left;
 	font-size: 1rem;
 	font-family: Tahoma;
 	max-width: 60%;
