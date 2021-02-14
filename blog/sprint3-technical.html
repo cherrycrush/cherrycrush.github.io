@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aaron's Blog</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/app.js"></script>
+</head>
+
+<!-- Initiate function from app.js -->
+<body>
+<header>	
+<h1 id="title">Ideas from the deep.</h1>
+</header>
+
+<!-- Nav bar -->
+<nav class="navbar">
+	<ul class="nav-list">
+		<li class="nav-item"><a href="../index.html">Home</li></a>
+		<li class="nav-item"><a href="../blog.html">Blog</li></a>
+	</ul>
+	<div class="nav-right">
+		<a class="nav-item" href="https://github.com/cherrycrush"><img src="../img/gh.png" width="32" height="32"></a>
+	</div>
+</nav>
+
+<!-- Main content -->
+<div class="container">
+<section>
+	<ul class="s-nav-list">
+		<li class="s-nav-item">/Sprint/</li>
+		<li class="s-nav-item"><a class="crumb" href="sprint1-technical.html">One</li></a>
+		<li class="s-nav-item"><a class="crumb" href="sprint2-technical.html">Two</li></a>
+		<li class="s-nav-item"><a class="crumb" href="sprint3-technical.html">[Three]</li></a>
+		<li class="s-nav-item"><a class="crumb" href="#">Four</li></a>
+		<li class="s-nav-item"><a class="crumb" href="#">Five</li></a>
+	</ul>
+</section>
+<article>
+	<h3>Best practice: "Class" and "id"</h3>
+	<p>This topic will illustrate the best practices of the class and id attributes - when and how to use them. CSS is a ruleset where certain elements will have precedence over others, hence the name "Cascading style sheets". An element defined with an id attribute will take precedence over the class attribute.</p>
+	<p>Classes are a method for selecting multiple HTML elements and applying style properties across them all. Javascript and CSS can use these classes to manipulate more HTML elements at once. This offers you more flexibility, as you can have multiple HTML elements with the same class name. The id attribute is a method for selecting individual HTML elements. This is when you want to manipulate one specific element. <strong>These must have a unique name.</strong></p>	
+	<p>Inside your HTML file you can create your elements that you want to manipulate. Here is an example of the usage of class and id inside html.</p>
+	<img class="image" src="../img/html-class-id.PNG" alt="HTML example">
+	<p class="image-text">Example of class and id in HTML</p>
+	<p>Now that your class and id are defined in your HTML file, you can reference them inside your CSS file. The class element is defined in CSS with a period (.) before the name of the class.</p>
+	<img class="image" src="../img/css-class.PNG" alt="CSS Class example">
+	<p class="image-text">Example of a "class" selector</p>
+	<p>And if you want to select a unique element. Say you are making your own 'like' button on your next big social media networking site - you add a # to the selector.</p>
+	<img class="image" src="../img/css-id.PNG" alt="CSS Id example">
+	<p class="image-text">Example of an "id" selector</p>
+	<p class="post">Feb 2021</p>
+</article>
+<div class="blank"></div>
+<article>
+	<h3>EQ and IQ</h3>
+	<h4>What is Emotional Intelligence?</h4>
+	<p></p>
+	<h4>How is it different from IQ?</h4>
+	<p></p>
+	<h4>Why is it important?</h4>
+	<p></p>
+	<p class="post">Feb 2021</p>
+</article>
+</div>
+</body>	
+</html>
