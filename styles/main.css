@@ -187,6 +187,7 @@ p {
 	width: 25%;
 	height: auto;
 	border-radius: 50%;
+	border: solid 2px #e05e00;
 }
 
 .image {
@@ -198,7 +199,7 @@ p {
 }
 
 .image-text {
-	padding-bottom: 1rem;
+	padding: 1rem;
 	margin: 0 auto;
 	font-size: 0.9rem;
 	justify-content: center;
