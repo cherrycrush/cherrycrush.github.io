@@ -128,7 +128,8 @@ article {
 /* Content text styles */
 
 h1 {
-	color: white;
+	color: #dedede;
+	font-weight: 400;
 	margin: 0;
 	border-right: solid 2px #333;
 	justify-content: center;
@@ -147,12 +148,14 @@ h3 {
 	max-width: 100%;
 	text-align: left;
 	border-bottom: solid 1px #333;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
+	font-weight: 400;
 	color: #e05e00;
 }
 
 h4 {
-	font-weight: bold;
+	font-weight: bolder;
+	font-size: 1.2rem;
 	margin: 0;
 }
 
@@ -215,7 +218,7 @@ p {
 
 @keyframes blinker {
   from, to { border-color: transparent }
-  50% { border-color: white;; }
+  50% { border-color: #dedede;; }
 }
 
 
