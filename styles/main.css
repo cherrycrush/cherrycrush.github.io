@@ -166,6 +166,11 @@ p {
 	display: block;
 }
 
+strong {
+	color: #e05e00;
+	font-weight: 500;
+}
+
 .link, .link:hover {
 	font-size: 1rem;
 	color: #e05e00;
