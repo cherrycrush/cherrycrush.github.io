@@ -211,6 +211,14 @@ strong {
 	font-size: 0.9rem;
 }
 
+.image-xl {
+	padding-top: 1rem;
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 0.9rem;
+}
+
 .image-text {
 	padding: 1rem;
 	margin: 0 auto;
