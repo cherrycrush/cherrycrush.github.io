@@ -1,9 +1,7 @@
 /* Import google font */
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
-
 /* Semantic tag styles */
-
 body {
 	background-color: #484a4c;
  	font-family: 'Source Code Pro', monospace;
@@ -28,7 +26,6 @@ header {
 
 
 /* Top Navbar styles */
-
 .navbar {
 	background-color: #dedede;
 	list-style: none;
@@ -71,7 +68,6 @@ a:hover {
 }
 
 /* Small nav styles */
-
 section {
 	max-width: 800px;
 	display: flex;
@@ -107,7 +103,6 @@ section {
 }
 
 /* Content semantic styles */
-
 .blank {
 	padding: 1.5rem;
 }
@@ -126,7 +121,6 @@ article {
 
 
 /* Content text styles */
-
 h1 {
 	color: #dedede;
 	font-weight: 400;
@@ -195,7 +189,6 @@ strong {
 }
 
 /* Image + text styles */
-
 #photo {
 	align-self: flex-start;
 	width: 25%;
@@ -228,7 +221,6 @@ strong {
 
 
 /* Title typewriter animation */
-
 #title {
 	animation: 
     blinker .75s step-end infinite;
@@ -241,7 +233,6 @@ strong {
 
 
 /* Media queries for responsive design */
-
 @media screen and (max-width: 800px) {
 	h1 {
 		font-size: 1.25em;
